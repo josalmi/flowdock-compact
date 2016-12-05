@@ -1,0 +1,77 @@
+a.tab-link {
+  padding: 0.2rem 1.096rem !important;
+}
+
+.tab-menu-link, .tab-error-link {
+  margin-top: 0.2rem !important;
+}
+.private-tab .user-menu-avatar, .private-tab .tab-avatar {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin: -0.01rem 0.731rem 0 0 !important;
+}
+
+#tab-bar.minimized .current .close-tab {
+  opacity: 0 !important;
+  top: -0.029rem !important;
+  margin-top: 0 !important;
+}
+
+.tab-initial {
+  vertical-align: -1px !important;
+}
+
+.tab-avatar {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin: -0.01rem 0.731rem 0 0 !important;
+}
+
+.minimized .tab-avatar {
+  line-height: 1.5rem !important;
+  white-space: nowrap;
+}
+
+.org-flows {
+  display: flex;
+  flex-direction: column;
+}
+
+#tab-bar.minimized {
+  width: 9rem !important;
+}
+
+.minimized #tab-list {
+  top: 3rem !important;
+  bottom: 0 !imporant;
+}
+
+.minimized .tab-list-content {
+  padding-left: 1rem;
+}
+
+.minimized .tab-link, .minimized .new-flow {
+  padding: 0 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.minimized .nav-footer-actions li {
+  float: right !important;
+  width: 50% !important;
+}
+
+.minimized .notification-container {
+  background: none !important;
+}
+
+.minimized .org-flows {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.minimized a.tab-menu-link.close-tab {
+}
+/* Show online users on top */
+/*.privates-list .org-flows .private-tab[data-presence="offline"] {
+  order: 2;
+}*/
