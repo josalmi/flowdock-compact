@@ -27,6 +27,10 @@ a.tab-link {
   margin: -0.01rem 0.731rem 0 0 !important;
 }
 
+.minimized .tab-link .activity-indicator, .minimized .new-flow .activity-indicator {
+  left: 1.4rem !important;
+}
+
 .minimized .tab-avatar {
   line-height: 1.5rem !important;
   white-space: nowrap;
@@ -68,10 +72,3 @@ a.tab-link {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-.minimized a.tab-menu-link.close-tab {
-}
-/* Show online users on top */
-/*.privates-list .org-flows .private-tab[data-presence="offline"] {
-  order: 2;
-}*/
